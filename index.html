@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trip Advisory</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+<!--NAVBAR-->
+<div class="navbar">
+<div class="navbar__logo"><img src="images/logo.png"></div>
+<div class="navbar__menu">
+<p><a href="#">Discover</a></p>
+<p><a href="#">Tips</a></p>
+<p><a href="#">Review</a></p>
+<p><a href="#">More</a></p>
+</div>
+<div class="navbar__signin-container">
+<div class="currency">
+<div class="globe-icon">
+</div>
+<p>INR</p>
+
+</div>
+<div class="navbar__signin">
+<button class="btn">Sign in</button>
+</div>
+
+</div>
+</div>
+
+<div class="main-container">
+<!--hero section-->
+<div class="hero-section">
+<h1>Where to?</h1>
+<div class="hero-section__menu">
+<div class="hero-section__menu-list hero-section__menu-list--active">
+<p>Search All</p>
+</div>
+<div class="hero-section__menu-list">
+
+<p>Hotels</p>
+</div>
+<div class="hero-section__menu-list">
+
+<p>Things to Do</p>
+</div>
+<div class="hero-section__menu-list">
+
+<p>Restaurants</p>
+</div>
+<div class="hero-section__menu-list">
+
+<p>Holiday Homes</p>
+</div>
+</div>
+
+<div class="search-container">
+<div class="search-bar">
+<i class="fa-solid fa-magnifying-glass " style="padding-left:10px;"></i>
+<input type="text" placeholder="Places to go, things to do, hotels" class="search-bar__input">
+<button class="search-bar__button">Search</button>
+</div>
+</div>
+<div class="build-trip">
+<img src="images/home-gai-entry-dv.png" class="build-trip-image">
+<div class="build-trip__info">
+<p class="build-trip__info--small">Powered by AI <span>BETA</span></p>
+<h2>Build a trip in minutes</h2>
+<p class="build-trip__info__text">Get a personalised itineray just for you, guided by traveller tips and reviews</p>
+<button class="build-trip__info__button"><i class="fa-solid fa-location-dot" style="color: #FFF;"></i> Start a trip with AI</button>
+
+</div>
+</div>
+
+</div>
+
+<!--Carousel award-winning-->
+<div class="carousel-section">
+<div class="carousel-section__heading"><p>2024's award-winning shores</p></div>
+<div class="carousel-section__subheading"><p>Traveller's Choice Awards Best of the Best Beaches</p></div>
+<div class="carousel-container">
+<div class="carousel-section__inner">
+<div class="carousel-section__items">
+<img src="images/award-winning-image1.jpg" class="img">
+<div class="overlay"></div>
+<p class="carousel-section__items__text--big">Asia Beaches</p>
+</div>
+<div class="carousel-section__items">
+<img src="images/award-winning-image2.jpg" class="img">
+<div class="overlay"></div>
+<p class="carousel-section__items__text--big">Caribbean Beaches</p>
+</div>
+<div class="carousel-section__items">
+<img src="images/award-winning-image3.jpg" class="img">
+<div class="overlay"></div>
+<p class="carousel-section__items__text--big">Europe Beaches</p>
+</div>
+<div class="carousel-section__items">
+<img src="images/award-winning-image4.jpg" class="img">
+<div class="overlay"></div>
+<p class="carousel-section__items__text--big">South Pacific Beaches</p>
+</div>
+
+</div>
+<div class="carousel-section__arrow">
+<div class="arrow-btn prev"><i class="fa-solid fa-arrow-left"></i></div>
+<div class="arrow-btn next"><i class="fa-solid fa-arrow-right"></i></div>
+</div>
+</div>
+</div>
+<!--Carousel Top experiences-->
+<div class="carousel-section">
+<div class="carousel-section__heading"><p>Top experiences on Tripadvisor
+</p></div>
+<div class="carousel-section__subheading"><p>The best tours, activities and tickets</p></div>
+<div class="carousel-container">
+<div class="carousel-section__inner">
+<div class="carousel-section__items">
+<img src="images/top-experiences1.jpg" class="img">
+
+<div class="fav"><img src="images/heart.png" class="img"></div>
+
+<p class="carousel-section__items__text">All-Inclusive Ubud Tour</p>
+<div class="likes">
+<div class="circles">
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+</div>
+<p>9,416</p>
+</div>
+<p class="carousel-section__items__subtext">from ₹ 7,712 per adult</p>
+
+</div>
+<div class="carousel-section__items">
+<img src="images/top-experiences2.jpg" class="img">
+
+<div class="fav"><img src="images/heart.png" class="img"></div>
+
+<p class="carousel-section__items__text">Tokyo 6hr Private Tour with Government-Licensed Guide</p>
+<div class="likes">
+<div class="circles">
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+</div>
+<p>1,414</p>
+</div>
+<p class="carousel-section__items__subtext">from ₹ 11,913 per adult</p>
+</div>
+<div class="carousel-section__items">
+<img src="images/top-experiences3.jpg" class="img">
+
+<div class="fav"><img src="images/heart.png" class="img"></div>
+<p class="carousel-section__items__text">Lion City Bike Tour of Singapore</p>
+<div class="likes">
+<div class="circles">
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+</div>
+<p>4,323</p>
+</div>
+<p class="carousel-section__items__subtext">from ₹ 5,423 per adult</p>
+</div>
+<div class="carousel-section__items">
+<img src="images/top-experiences4.jpg" class="img">
+
+<div class="fav"><img src="images/heart.png" class="img"></div>
+
+<p class="carousel-section__items__text">Tokyo 6hr Private Tour with Government-Licensed Guide</p>
+<div class="likes">
+<div class="circles">
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+</div>
+<p>3,292</p>
+</div>
+<p class="carousel-section__items__subtext">from ₹ 428 per adult</p>
+</div>
+
+</div>
+<div class="carousel-section__arrow">
+<div class="arrow-btn prev"><i class="fa-solid fa-arrow-left"></i></div>
+<div class="arrow-btn next"><i class="fa-solid fa-arrow-right"></i></div>
+</div>
+</div>
+</div>
+<!--Carousel viewing spot-->
+<div class="carousel-section">
+<div class="carousel-section__heading"><p>Find the perfect sakura viewing spot</p></div>
+<div class="carousel-section__subheading"><p>These parks and gardens are great for a picnic under the cherry trees</p></div>
+<div class="carousel-container">
+<div class="carousel-section__inner">
+<div class="carousel-section__items">
+<img src="images/viewing-spot1.jpg" class="img">
+
+<div class="fav"><img src="images/heart.png" class="img"></div>
+
+
+<div class="year" style="background: #00aa6c;">
+<img src="images/tripadvisor.png" class="img">
+<p>2023</p>
+</div>
+
+
+<p class="carousel-section__items__text">Shinjuku Gyoen National Garden</p>
+<div class="likes">
+<div class="circles">
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle-half"></div>
+</div>
+<p>6,220</p>
+</div>
+<p class="carousel-section__items__subtext">Graden</p>
+
+</div>
+<div class="carousel-section__items">
+<img src="images/viewing-spot2.jpg" class="img">
+
+<div class="fav"><img src="images/heart.png" class="img"></div>
+
+<p class="carousel-section__items__text">Yeouido Park</p>
+<div class="likes">
+<div class="circles">
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle-half"></div>
+</div>
+<p>714</p>
+</div>
+<p class="carousel-section__items__subtext">Parks</p>
+</div>
+<div class="carousel-section__items">
+<img src="images/viewing-spot3.jpg" class="img">
+
+<div class="fav"><img src="images/heart.png" class="img"></div>
+<div class="year" style="background: #00aa6c;">
+<img src="images/tripadvisor.png" class="img">
+<p>2023</p>
+</div>
+<p class="carousel-section__items__text">Osaka Castle Park</p>
+<div class="likes">
+<div class="circles">
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle-empty"></div>
+</div>
+<p>6,976</p>
+</div>
+<p class="carousel-section__items__subtext">Parks</p>
+</div>
+<div class="carousel-section__items">
+<img src="images/viewing-spot4.jpg" class="img">
+
+<div class="fav"><img src="images/heart.png" class="img"></div>
+
+<p class="carousel-section__items__text">Yangmingshan National Park</p>
+<div class="likes">
+<div class="circles">
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle-half"></div>
+</div>
+<p>1,424</p>
+</div>
+<p class="carousel-section__items__subtext">National Parks</p>
+</div>
+
+</div>
+<div class="carousel-section__arrow">
+<div class="arrow-btn prev"><i class="fa-solid fa-arrow-left"></i></div>
+<div class="arrow-btn next"><i class="fa-solid fa-arrow-right"></i></div>
+</div>
+</div>
+</div>
+
+
+<!--Carousel more-to-explore-->
+<div class="more-to-explore">
+<div class="wrapper">
+<div class="carousel-section">
+<div class="carousel-section__heading"><p>More to explore</p></div>
+
+<div class="carousel-container">
+<div class="carousel-section__inner">
+<div class="carousel-section__items">
+<img src="images/viewing-spot1.jpg" class="img">
+
+<div class="fav"><img src="images/heart.png" class="img"></div>
+<p class="carousel-section__items__text">A guide to Newtown: Sydney's coolest neighbourhood</p>
+</div>
+<div class="carousel-section__items">
+<img src="images/viewing-spot2.jpg" class="img">
+<div class="fav"><img src="images/heart.png" class="img"></div>
+<p class="carousel-section__items__text">8 lesser-known spots for the best Sydney harbour views</p>
+</div>
+<div class="carousel-section__items">
+<img src="images/viewing-spot3.jpg" class="img">
+<div class="fav"><img src="images/heart.png" class="img"></div>
+<p class="carousel-section__items__text">Bali chefs share their top restaurants, spas, neighborhoods, and more</p>
+</div>
+
+
+</div>
+<div class="carousel-section__arrow">
+<div class="arrow-btn prev"><i class="fa-solid fa-arrow-left"></i></div>
+<div class="arrow-btn next"><i class="fa-solid fa-arrow-right"></i></div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<!--Carousel Top destinations-->
+<div class="wrapper">
+<div class="carousel-section">
+<div class="carousel-section__heading"><p>Top destinations for your next holiday</p></div>
+<div class="carousel-section__subheading"><p>Here's where your fellow travellers are headed</p></div>
+<div class="carousel-container">
+<div class="carousel-section__inner">
+<div class="carousel-section__items">
+<img src="images/award-winning-image1.jpg" class="img">
+<div class="overlay"></div>
+<p class="carousel-section__items__text--big">Tokyo, Japan</p>
+</div>
+<div class="carousel-section__items">
+<img src="images/award-winning-image2.jpg" class="img">
+<div class="overlay"></div>
+<p class="carousel-section__items__text--big">Singapore, Singapore</p>
+</div>
+<div class="carousel-section__items">
+<img src="images/award-winning-image3.jpg" class="img">
+<div class="overlay"></div>
+<p class="carousel-section__items__text--big">Hanoi, Vietnam</p>
+</div>
+<div class="carousel-section__items">
+<img src="images/award-winning-image4.jpg" class="img">
+<div class="overlay"></div>
+<p class="carousel-section__items__text--big">Seoul, South Korea</p>
+</div>
+
+</div>
+<div class="carousel-section__arrow">
+<div class="arrow-btn prev"><i class="fa-solid fa-arrow-left"></i></div>
+<div class="arrow-btn next"><i class="fa-solid fa-arrow-right"></i></div>
+</div>
+</div>
+</div>
+
+<div class="best-choice">
+<div class="wrapper">
+<div class="best-choice-container">
+<div class="left">
+<div class="trip-logo">
+<img src="images/tripadvisor-big.png">
+</div>
+<h2>Travellers' Choice Awards Best of the Best</h2>
+<p>Among our top 1% of places, stays, eats, and experiences—decided by you.</p>
+<button class="btn">See the winners</button>
+</div>
+<div class="right">
+<img src="images/trip-image.jpg">
+</div>
+</div>
+
+</div>
+</div>
+
+<!--footer-->
+<div class="footer">
+<div class="wrapper">
+<div class="footer-top">
+<div class="footer-top__menu">
+<div class="footer-top__menu-list">
+<p class="footer-top__menu-list-heading"><a href="#" target="_blank">About Tripadvisor</a></p>
+<p><a href="#" target="_blank">About Us</a></p>
+<p><a href="#" target="_blank">Press</a></p>
+<p><a href="#" target="_blank">Resources and Policies</a></p>
+<p><a href="#" target="_blank">Careers</a></p>
+<p><a href="#" target="_blank">Trust & Safety</a></p>
+<p><a href="#" target="_blank">Contact us</a></p>
+<p><a href="#" target="_blank">Accessibility Statement</a></p>
+</div>
+<div class="footer-top__menu-list">
+<p class="footer-top__menu-list-heading"><a href="#" target="_blank">Explore</a></p>
+<p><a href="#" target="_blank">Write a review</a></p>
+<p><a href="#" target="_blank">Add a Place</a></p>
+<p><a href="#" target="_blank">Join</a></p>
+<p><a href="#" target="_blank">Travellers' Choice</a></p>
+<p><a href="#" target="_blank">GreenLeaders</a></p>
+<p><a href="#" target="_blank">Help Centre</a></p>
+<p><a href="#" target="_blank">Travel Articles</a></p>
+</div>
+<div class="footer-top__menu-list">
+<p class="footer-top__menu-list-heading"><a href="#" target="_blank">Do Business With Us</a></p>
+<p><a href="#" target="_blank">Owners & DMO/CVB</a></p>
+<p><a href="#" target="_blank">Business Advantage</a></p>
+<p><a href="#" target="_blank">Sponsored Placements</a></p>
+<p><a href="#" target="_blank">Access our Content API</a></p>
+<p class="footer-top__menu-list-heading" style="margin-top: 10px;"><a href="#" target="_blank">Get The App</a></p>
+<p><a href="#" target="_blank">iPhone App</a></p>
+<p><a href="#" target="_blank">Android App</a></p>
+</div>
+</div>
+<div class="footer-top__site-info">
+<p class="heading">Tripadvisor Sites</p>
+<p>Book tours and attraction tickets on Viator</p>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="logo"><img src="./images/viewing-spot4.jpg"></div>
+<div class="copyright-section">
+<p class="copyright">&copy; 2024 Tripadvisor LLC All rights reserved.</p>
+<div class="terms-condition">
+<p><a href="#" target="_blank">Terms of Use</a></p>
+<p><a href="#" target="_blank">Privacy and Cookies Statement</a></p>
+<p><a href="#" target="_blank">Cookie consent</a></p>
+<p><a href="#" target="_blank">Site Map</a></p>
+<p><a href="#" target="_blank">How the site works</a></p>
+<p><a href="#" target="_blank">Contact us</a></p>
+</div>
+</div>
+<div class="dropdown-section">
+<select name="currency" id="currency">
+<option value="INR">₹ INR</option>
+<option value="DOLLAR">$ DOLLAR</option>
+</select>
+<select name="country" id="country">
+<option value="India">India</option>
+<option value="USA">USA</option>
+</select>
+</div>
+
+</div>
+<div class="footer-info">
+<div class="text">
+<p>This is the version of our website addressed to speakers of English in India. If you are a resident of another country or region, please select the appropriate version of Tripadvisor for your country or region in the drop-down menu. <span id="more">more</span></p>
+</div>
+<div class="social-icons">
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-x-twitter"></i>
+<i class="fa-brands fa-pinterest"></i>
+<i class="fa-brands fa-instagram"></i>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
